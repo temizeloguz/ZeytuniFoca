@@ -1,0 +1,124 @@
+*{
+    margin: 0  ;
+}
+body {
+  margin-left: 175px;
+  margin-right: 175px;
+background-image: url(img/zeytuniBackground.png);
+background-repeat:round;
+background-size:cover;
+background-attachment: fixed;
+
+}
+.navContent{
+padding-left: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+  margin-left: 8vw;
+  margin-right: 8vw;
+
+  animation: fadeInLeft;
+  animation-duration:2s;
+
+
+}
+nav{
+
+margin-top: 10px;
+
+}
+.navigationBar {
+  
+margin-right: 4vw;
+margin-left: 4vw;
+  background-color: #c9e265;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding-bottom: 10px;
+
+
+  animation: fadeInDown;
+    animation-duration: 2s;
+    opacity: 0.9;
+}
+.navItems {
+  margin: 60px;
+  font-size: 2vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  font-family: 'Playball', cursive;
+  color:#39440f;
+}
+.contactLogos{
+
+  display: inline-block;
+  gap:5px;
+  margin-left: 4vw;
+  margin-top: 0.45vw;
+  padding: 0;
+}
+.contactLogos img{
+width: 45px;
+
+}
+
+
+.zeytuniLogo{
+    text-align: center;
+  background-color: #c9e265;
+margin-top: 50px;
+opacity: 0.9;
+padding-bottom: 300px;
+  border-radius: 10px;
+}
+.zeytuniLogo img{
+width:10vw;
+animation:zoomIn;
+animation-duration:3s;
+
+}
+.zeytuniText{
+
+}
+.zeytuniText p{
+  display: inline-block;
+  font-size: 1.5vw;
+ margin: 0 auto;
+  font-family: 'Neucha', cursive;
+  
+}
+
+
+#instagramIcon:hover{
+    animation:headShake;
+    animation-duration: 1s;
+}
+#telephoneIcon:hover{
+    animation:headShake;
+    animation-duration:1s;
+}
+
+
+
+
+
+
+
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+ 
+}
+ul {
+  padding: 0;
+}
+li {
+  display: inline-block;
+  list-style-type: none;
+  
+}
